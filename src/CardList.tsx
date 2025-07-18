@@ -31,7 +31,7 @@ export default function CardList({ memoObj, setMemoObject }: memoList) {
 
       setSelected([]);
     }
-  },[]);
+  });
 
   return (
     <>
